@@ -1,5 +1,6 @@
 {
   "name": "BeJson",
+  "name":"ss",
   "url": "http://www.bejson.com",
   "page": 88,
   "isNonProfit": true,
@@ -20,6 +21,10 @@
     {
       "name": "SoSo",
       "url": "http://www.SoSo.com"
+    },
+    {
+      "name": "duoduo",
+      "url": "http://www.duoduo.com"
     }
   ]
 }
