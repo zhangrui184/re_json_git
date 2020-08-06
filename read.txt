@@ -1,0 +1,21 @@
+第一次收集
+caculate.py #计算共多少suc_pdf为true的文件
+del_json.py #使用名称把fileToList的信息用suc_pdf过滤成fileToList_result，只包含需要的信息。
+del_json2.py #使用名称把fileToList的信息用“重复名字”过滤成fileToList_result，只包含需要的信息。
+             #baidu_xueshu和google_shcolor内部自己检查是否重复，删除重复的
+             #根据前一个和下一个的DOI是否重复来判断
+del_json3.py #使用名称把fileToList的信息用“重复名字”过滤成fileToList_result，只包含需要的信息。
+             #baidu_xueshu和google_shcolor内部自己检查是否重复，删除重复的
+             #根据前一个和下一个的DOI是否重复来判断
+             #保存时候增加dict键值对source:baidu_xueshu or google_shcolor
+             #                   和filejsonname:  
+del_json4.py #根据all.json列表获取百度和谷歌分别的Json文件存到指定位置
+del_json5.py #根据baidu_xueshu_all_2.2.json和google_shcolor_all_2.2.json列表获取百度和谷歌分别的Json文件存到baidu_out_suc和google_out_suc位置
+
+paper_util.py #没写完
+util.py #读取json中的titles,abstractTexts
+util2.py #读取json中的name_list,url_list
+
+-----------------------------------------------------------------------------------------------------------
+第二次收集
+j_util1.py #处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
