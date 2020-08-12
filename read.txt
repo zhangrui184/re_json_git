@@ -19,3 +19,5 @@ util2.py #读取json中的name_list,url_list
 -----------------------------------------------------------------------------------------------------------
 第二次收集
 j_util1.py #处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
+caculate2.py 计算第二次下载一共有多少篇 14905篇pdf
+j_util2.py 处理/home/ddd/data/pc2/ad1_result/ad1_papers_json/内容，抽取出introduction 和abstract ,并存到相应的文件夹中
