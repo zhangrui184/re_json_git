@@ -50,6 +50,7 @@ class OperationJson:
     no_cor_txt=[]#获取introduction和abstract时候有误的index集合
     spe_file=[]#存写文件时候有误的index集合
     Introduction_str='Introduction'
+    INTRODUCTION_str='INTRODUCTION'
     for a_file_metadata_list in file_metadata_list:
         try:
            a_abstractText=a_file_metadata_list['abstractText']

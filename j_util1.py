@@ -1,4 +1,5 @@
-#目标：/home/ddd/data/pc2/v1_2加了标题后为文件夹ad1
+#正确，在使用，处理数据第一步
+# 目标：/home/ddd/data/pc2/v1_2的json文件加了表头后为文件夹ad1
 #功能：获取的DOI去重       
 #coding=utf-8
 import json

@@ -1,5 +1,5 @@
 第一次收集
-caculate.py #计算共多少suc_pdf为true的文件
+caculate.py  正确 计算共多少suc_pdf为true的文件
 del_json.py #使用名称把fileToList的信息用suc_pdf过滤成fileToList_result，只包含需要的信息。
 del_json2.py #使用名称把fileToList的信息用“重复名字”过滤成fileToList_result，只包含需要的信息。
              #baidu_xueshu和google_shcolor内部自己检查是否重复，删除重复的
@@ -18,6 +18,23 @@ util2.py #读取json中的name_list,url_list
 
 -----------------------------------------------------------------------------------------------------------
 第二次收集
-j_util1.py #处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
-caculate2.py 计算第二次下载一共有多少篇 14905篇pdf
-j_util2.py 处理/home/ddd/data/pc2/ad1_result/ad1_papers_json/内容，抽取出introduction 和abstract ,并存到相应的文件夹中
+caculate2.py 正确 计算第二次下载的论文有多少篇，14905篇pdf
+caculate3.py 正确 计算第二次下载的论文的json文件中，heading类型有多少
+caculate4.py 正确 计算第二次去掉size为0的json的论文paper_path_e和paper_path_e2中size为0的多少
+caculate5.py 错误的过程
+caculate6.py 正确 正确的计算index，计算paper_path_e和paper_path_e2中都存在size的文件列表，输出为all_yes_size_file.txt
+caculate7.py 正确，可运行，帮助计算
+
+j_util1.py #在使用，处理数据第一步。处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
+j_util2.py 正确，但是不用了，处理/home/ddd/data/pc2/ad1_result/ad1_papers_json/内容，仅使用'Introduction'关键词，抽取出introduction 和abstract ,并存到相应的文件夹中
+j_util3.py 正确，但是不用了
+j_util4.py 正确，但不用了，目标：第二次，使用多个关键词提取introduction，记录重复的index是看是否已存在
+j_util5.py 正确，在使用，处理数据第二步。使用关键词表提取introduction和abstract，记录重复的index是没有看是否已存在
+j_util6.py 错误的过程
+j_util7.py 错误的过程
+j_util8.py 正确，在使用，处理数据第三步。将size为0的去掉，其余有size的文件重新保存到一个文件夹中
+
+处理数据步骤
+第一步：j_util1.py
+第二步：j_util5.py
+第三步：j_util8.py

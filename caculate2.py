@@ -1,4 +1,5 @@
-#计算第二次下载的论文有多少篇，14905篇pdf
+#正确
+# 计算第二次下载的论文有多少篇，14905篇pdf
 import os
 paper_path_e='/home/ddd/data/pc2/ad1_result/ad1_papers/'
 
