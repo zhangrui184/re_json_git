@@ -42,7 +42,7 @@ class OperationJson:
          file_metadata_list.append(metadata) 
     return file_metadata_list  
  
-  #获取最终的index和DOI
+  #获取最终Introduction和abstract
   def get_content_list(self,file_metadata_list,art_paper_path,abs_paper_path,keywords):
     all_abstractText=[]#所有的abstract
     index=0

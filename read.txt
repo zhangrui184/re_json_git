@@ -22,10 +22,12 @@ caculate2.py 正确 计算第二次下载的论文有多少篇，14905篇pdf
 caculate3.py 正确 计算第二次下载的论文的json文件中，heading类型有多少
 caculate4.py 正确 计算第二次去掉size为0的json的论文paper_path_e和paper_path_e2中size为0的多少
 caculate5.py 错误的过程
-caculate6.py 正确 正确的计算index，计算paper_path_e和paper_path_e2中都存在size的文件列表，输出为all_yes_size_file.txt
+caculate6.py 正确 正确的计算index，计算paper_path_e和paper_path_e2中都存在size的文件列表，14890对于7954的数字输出为all_yes_size_file.txt
 caculate7.py 正确，可运行，帮助计算
+caculate8.py 正确，计算18926和14890的对应数字，18926对应14890的数字保存到/home/ddd/data2/ad5_result/num_to_num_file2.txt  
+caculate9.py 正确，统计/home/ddd/data2/ad6/中含有doi和Corresponding author的有多少
 
-j_util1.py #在使用，处理数据第一步。处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
+j_util1.py 正确，在使用，处理数据第一步。处理/home/ddd/data/pc2/ad1的内容，得到DOI去重的/home/ddd/data/pc2/ad1/ad1_result.json
 j_util2.py 正确，但是不用了，处理/home/ddd/data/pc2/ad1_result/ad1_papers_json/内容，仅使用'Introduction'关键词，抽取出introduction 和abstract ,并存到相应的文件夹中
 j_util3.py 正确，但是不用了
 j_util4.py 正确，但不用了，目标：第二次，使用多个关键词提取introduction，记录重复的index是看是否已存在
@@ -33,8 +35,12 @@ j_util5.py 正确，在使用，处理数据第二步。使用关键词表提取
 j_util6.py 错误的过程
 j_util7.py 错误的过程
 j_util8.py 正确，在使用，处理数据第三步。将size为0的去掉，其余有size的文件重新保存到一个文件夹中
+j_util9.py 正确，在使用，处理数据第四步.文件名重新编码,从0-7953,共7954个文件
+j_util10.py 正确，在使用，处理数据的第五步。把'Permission to make digital......https://doi.org/10.1145/3132498.3132510.'的水印去掉
 
 处理数据步骤
 第一步：j_util1.py
 第二步：j_util5.py
 第三步：j_util8.py
+第四步：j_util9.py
+第五步：j_util10.py
